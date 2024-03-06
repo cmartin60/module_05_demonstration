@@ -7,11 +7,11 @@ Introduction to Python Functions
 Christian Jorge Martin
 
 ## Demonstration Topics
-Functions
-Benefits of using functions
-Function definition and syntax
-Function parameters
-Function return values
-Exceptions in functions
-Main guard
-Function Docstrings
+- Functions
+- Benefits of using functions
+- Function definition and syntax
+- Function parameters
+- Function return values
+- Exceptions in functions
+- Main guard
+- Function Docstrings
