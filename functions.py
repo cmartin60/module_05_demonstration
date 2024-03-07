@@ -36,7 +36,20 @@ def greet(name: str, age: int) -> str:
     Returns:
         String greeting message
     """
-    return f"Hello, {name}! You are {age} years old"
+    return f"Hello, {name}! You are {age} years old."
+
+print(greet(name ="Tuna", age = 14))
+print(greet("Oz", 4))
+
+num_one = 10
+num_two = 5
+
+def multiply_by_val(operand1: int, operand2: int) -> int:
+    operand1 = operand1 * operand2
+    return operand1
+
+num_one = multiply_by_val(num_one, num_two)
+print(num_one)
 
 def math_operation(operand1: int, operand2: int, operation: str) -> float:
     """
@@ -61,11 +74,11 @@ def math_operation(operand1: int, operand2: int, operation: str) -> float:
     return result
 
 try:
-    result = math_operation(10, 27,  operation = "+")
+    result = math_operation(10, 27, operation = "+")
     print(result)
 except ValueError as ve: 
     print(ve)
 except Exception:
     print("Something went wrong")
-
+    
 print(math_operation.__doc__)
